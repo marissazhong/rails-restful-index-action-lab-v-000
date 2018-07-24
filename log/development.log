@@ -170,3 +170,5 @@ Started GET "/students" for 74.101.196.132 at 2018-07-21 21:32:51 +0000
 Processing by StudentsController#index as HTML
   [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students"
   Rendered students/index.html.erb within layouts/application (4.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
